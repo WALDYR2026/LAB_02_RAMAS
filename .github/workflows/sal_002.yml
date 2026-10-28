@@ -1,4 +1,4 @@
-name: Mi Primer Workflow
+name: Saludos_002
 # 1. ¿Cuándo se ejecuta? Al hacer push a la rama 'main'
 on:
   push:
@@ -6,9 +6,9 @@ on:
 # 2. ¿Qué va a hacer?
 jobs:
   saludo:
-  # Tipo de máquina virtual que usaremos
+    # Tipo de máquina virtual que usaremos
     runs-on: ubuntu-latest
-  # Pasos secuenciales
+    # Pasos secuenciales
     steps:
       - name: Imprimir saludo en consola
       run: echo "¡Hola Mundo! Tu GitHub Action funciona perfectamente."
